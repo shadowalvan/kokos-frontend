@@ -73,13 +73,13 @@ body {
   background-color: var(--bgCust2);
 }
 #root *.btn-outline {
-  border: 2px solid #fcbe03;
+  border: 1px solid #fcbe03;
   color: #fcbe03;
   background-color: transparent;
 }
 #root *.btn-outline:hover {
-  background-color: #fc9d037b;
-  color: #022d5e;
+  background-color:var(--bgCust4);
+  color: var(--bgCust2);;
   transform: translateY(-3px);
 }
 #root input {
@@ -436,10 +436,7 @@ body {
 #root *.center *,
 #root *.left *,
 #root *.right *,
-#root *.justify * {
-  justify-content: inherit;
-  text-align: inherit;
-}
+#root *.justify * {justify-content: inherit; text-align: inherit;}
 #root *.left button,
 #root *.right button { text-align: center; }
 #root *.center ul,

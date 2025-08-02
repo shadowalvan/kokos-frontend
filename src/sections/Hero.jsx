@@ -15,12 +15,12 @@ export default function Hero({ id }) {
             <p className="hero-text f-2">
               Transforming education through innovative AI and coding programs for Grades 1-8, preparing students for the digital future.
             </p>
-            <div className="hero-buttons">
-              <ScrollLink id="why" className="btn btn-outline f-1">
+            <div className="hero-buttons f-big center">
+              <ScrollLink id="why" className="btn btn-outline f-7 w-60">
                 Learn About Us
               </ScrollLink>
-              <button className="btn primaryBtn f-1">Request a Demo</button>
-              <ScrollLink id="contact" className="btn btn-outline f-1">
+              <button className="btn primaryBtn f-7 w-60">Request a Demo</button>
+              <ScrollLink id="contact" className="btn btn-outline f-7 w-60">
                 Contact Us Today
               </ScrollLink>
             </div>
