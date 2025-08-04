@@ -989,15 +989,15 @@
 
 #root .why-section .section-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 #root .why-section .section-header h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--bgNavBar);
 }
 
@@ -1009,13 +1009,13 @@
 #root .why-section .features-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 4rem;
 }
 
 #root .why-section .feature-card {
   background-color: #e8eff8e2;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1035,7 +1035,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 #root .why-section .feature-icon span {
@@ -1056,10 +1056,16 @@
 #root .why-section .stats-container {
   background-color: var(--bgNavBar);
   border-radius: 1.5rem;
-  padding: 2.5rem 2rem;
+  padding: 1.5rem 2rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
+  margin-top: -2.5rem;
+}
+
+#root .why-section .stats-container hr {
+  border: 0.5px solid rgba(255, 255, 255, 0.396);
+  margin-top: 1rem;
 }
 
 #root .why-section .stat-item {
@@ -1068,7 +1074,7 @@
 }
 
 #root .why-section .stat-number {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--coNavLinkHover);
   margin-bottom: 0.5rem;
@@ -1090,8 +1096,31 @@
   }
 
   #root .why-section .stats-container {
+    margin-top: 0rem;
+    padding: 2.5rem 2rem;
+    gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  #root .why-section .section-header {
+  margin-bottom: 2rem;
+  gap: 2rem;
+  }
+
+  #root .why-section .section-header h2 {
+    font-size: 2.5rem;
+  }
+
+  #root .why-section .section-header p {
+    font-size: 1.3rem;
+  }
+
+  #root .why-section .stat-number {
+    font-size: 3rem;
+  }
+  #root .why-section .stats-container hr {
+  border: none;
+}
 }
 
 @media (min-width: 1024px) {

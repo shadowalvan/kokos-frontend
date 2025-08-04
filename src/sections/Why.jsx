@@ -28,17 +28,20 @@ export default function Why({ id }) {
     <section id={id} className="why-section">
       <div className="container">
         <div className="section-header center">
-          <h2 className="f-xl f-bold">Why AI Education Matters</h2>
-          <p className="f-normal">Preparing young minds for a future where AI literacy is as essential as traditional reading and writing.</p>
+          <h2 className="f-bigest f-bold">Why AI Education Matters</h2>
+          <p className="f-normal f-2">Preparing young minds for a future where AI literacy is as essential as traditional reading and writing.</p>
         </div>
 
         <div className="features-grid">
           {features.map((feature, index) => (
             <div key={index} className="feature-card">
-              <div className="feature-icon">
-                <span className="material-symbols-outlined">{feature.icon}</span>
+              <div className="flexBox">
+                <div className="feature-icon">
+                  <span className="material-symbols-outlined">{feature.icon}</span>
+                </div>
+                <h3 className="f-big ">{feature.title}</h3>                
               </div>
-              <h3 className="f-big">{feature.title}</h3>
+
               <p className="f-normal">{feature.text}</p>
             </div>
           ))}
@@ -49,6 +52,7 @@ export default function Why({ id }) {
             <div key={index} className="stat-item">
               <div className="stat-number f-xl f-bold">{stat.number}</div>
               <div className="stat-label f-normal">{stat.label}</div>
+              <hr />
             </div>
           ))}
         </div>
