@@ -47,7 +47,7 @@ export default function Offer({ id }) {
                   </li>
                 ))}
               </ul>
-              <button className="btn primaryBtn f-1">Get Started Today</button>
+              <button className="btn primaryBtn f-7 f-big">Get Started Today</button>
             </div>
           </div>
         </div>
@@ -84,9 +84,9 @@ export default function Offer({ id }) {
                 <h4 className="f-big">{resource.title}</h4>
                 <p className="f-normal">{resource.text}</p>
                 {resource.disabled ? (
-                  <button className="btn primaryBtn f-1" disabled>Coming soon...</button>
+                  <button className="btn primaryBtn f-7 f-big" disabled>Coming soon...</button>
                 ) : (
-                  <a href={resource.href} className="btn primaryBtn f-1" target="_blank" rel="noopener" download={resource.download}>
+                  <a href={resource.href} className="btn primaryBtn f-7 f-big" target="_blank" rel="noopener" download={resource.download}>
                     Download PDF
                   </a>
                 )}

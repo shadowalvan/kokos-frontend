@@ -83,7 +83,7 @@ body {
   transform: translateY(-3px);
 }
 #root input {
-  width: 150px;
+  width: 100%;
   padding: 5px 10px;
   border-width: 0;
   border-radius: var(--borderRad);
@@ -384,53 +384,6 @@ body {
   #root .navBar .logo-img {
     margin: 15px 0 0 20px;
   }
-}
-
-/* ==========================================================================
-   Footer Styles
-   ========================================================================== */
-#root .boxCont.footer {
-  background-color: var(--bgCust4);
-  color: var(--coCust5);
-  padding: 20px;
-}
-
-#root div.center {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-
-#root div.w-33,
-#root div.w-33 p {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  justify-content: space-between;
-}
-
-#root .boxCont.footer .footer-link {
-  width: auto;
-  color: var(--coNavLink);
-  text-decoration: none;
-  transition: color 0.3s ease, background-color 0.3s ease;
-}
-
-#root .boxCont.footer .footer-link:hover,
-#root .boxCont.footer .footer-link.selected {
-  color: var(--coNavLinkHover);
-  background-color: var(--bgNavBtnHover);
-}
-
-#root .boxCont.footer a[href^="mailto:"] {
-  color: var(--coNavLink);
-  text-decoration: underline;
-}
-
-#root .boxCont.footer a[href^="mailto:"]:hover {
-  color: var(--coNavLinkHover);
 }
 
 /* ==========================================================================
