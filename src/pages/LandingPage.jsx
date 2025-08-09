@@ -30,8 +30,8 @@ export default function LandingPage() {
       <main>
         <Hero id="hero"/>
         <Why id="why" />
-        <How id="how" />
         <Offer id="offer" />
+        <How id="how" />      
         <Team id="team" />
         <FAQ id="faq" />
         <Contact id="contact" />

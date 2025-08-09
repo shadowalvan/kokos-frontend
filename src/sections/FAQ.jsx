@@ -59,7 +59,7 @@ export default function FAQ({ id }) {
 
         <div className="faq-cta center">
           <p className="f-normal">Still have questions? We're here to help!</p>
-          <ScrollLink id="contact" className="btn primaryBtn f-1">
+          <ScrollLink id="contact" className="btn primaryBtn f-7 f-big">
             <span className="material-symbols-outlined" aria-hidden="true">contact_support</span>
             Contact Our Support Team
           </ScrollLink>

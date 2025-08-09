@@ -40,8 +40,10 @@ export default function How({ id }) {
           {timelineItems.map((item, index) => (
             <div key={index} className="timeline-item">
               <div className={`timeline-content ${item.side}`}>
-                <div className="step-number f-1">{item.step}</div>
-                <h3 className="f-big">{item.title}</h3>
+                <div className="timeline-header">
+                  <div className="step-number f-1">{item.step}</div>
+                  <h3 className="f-big">{item.title}</h3>                  
+                </div>
                 <p className="f-normal">{item.text}</p>
               </div>
               <div className="timeline-dot"></div>
