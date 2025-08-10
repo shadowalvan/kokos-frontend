@@ -19,7 +19,8 @@ export default function Contact({ id }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const success = await submitForm({
-      endpoint: 'https://formspree.io/f/xkgbkdar',
+      // endpoint: 'https://formspree.io/f/xkgbkdar',
+      endpoint: 'http://localhost:8080/contacts',
       formData: form,
       setIsSubmitting,
       setSuccess,
