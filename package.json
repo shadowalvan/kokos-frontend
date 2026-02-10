@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://brianronock.github.io/kokos-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -32,3 +31,6 @@
     "vite": "^7.0.4"
   }
 }
+
+
+
