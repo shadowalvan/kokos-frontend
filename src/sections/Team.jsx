@@ -29,7 +29,8 @@ export default function Team({ id }) {
       name: 'Alvan',
       role: 'Cybersecurity Expert',
       bio: 'Alvan plays a key role in ensuring the safety and resilience of our digital infrastructure. With a strong foundation in cybersecurity, he helps protect our platform, users, and data, enabling schools to embrace technology with confidence.',
-      photo: 'images/alvan2.png',
+      //photo: 'images/alvan2.png',
+      photo: 'images/alvan_changed.jpeg',
     },
     {
       name: 'Nehemiah',
